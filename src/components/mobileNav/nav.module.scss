@@ -1,0 +1,34 @@
+.nav-list {
+  position: fixed;
+  margin: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(51, 51, 51, 0.98);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  animation-name: slide-open;
+  animation-duration: .4s;
+
+  @media screen and (min-width: 1000px) {
+    display: none;
+  }
+
+  li {
+    color: white;
+    line-height: 4rem;
+    font-size: 2rem;
+  }
+}
+
+@keyframes slide-open {
+  from {width: 0;}
+  to {width: 100vw;}
+}

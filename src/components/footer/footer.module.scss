@@ -1,0 +1,41 @@
+.footer {
+  background: #333;
+  color: white;
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h5 {
+    display: none;
+    margin: 0;
+    padding: 0;
+    @media screen and (min-width: 1000px) {
+      display: inline-block;
+    }
+  }
+
+  a {
+    transition: all 0.3s ease-in-out;
+  }
+  a:hover {
+    color: rgb(231, 99, 12);
+  }
+
+  @media screen and (min-width: 1000px) {
+    a {
+      margin: 0 2rem;
+    }
+    a:first-child {
+      margin-left: 0;
+    }
+    a:last-child {
+      margin-right: 0;
+    }
+  }
+}

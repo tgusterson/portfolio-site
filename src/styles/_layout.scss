@@ -1,0 +1,148 @@
+.about-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  @media screen and (min-width: 1000px) {
+    max-width: 1200px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    p {
+      line-height: 1.6;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .skills-list {
+    margin: .5rem 2rem;
+  }
+
+  h3 {
+    @media screen and (min-width: 1000px) {
+      margin-top: 3rem;
+    }
+  }
+
+  a {
+    transition: all 0.3s ease-in-out;
+  }
+  a:hover {
+    color: rgb(206, 90, 12);
+  }
+
+  .ctaBtn {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    background: #444;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .ctaBtn:hover {
+    color: white;
+    background: rgb(206, 90, 12);
+  }
+}
+
+.project-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  .blurb {
+    font-size: 1.1rem;
+    a {
+      color: rgb(206, 90, 12);
+      text-decoration: underline;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    max-width: 1200px;
+  }
+
+  .card {
+    border-bottom: 1px dotted black;
+  }
+  .card:last-child {
+    border: none;
+  }
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  min-height: calc(100vh - 79.09px - 81px);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  @media screen and (min-width: 1000px) {
+    max-width: 1200px;
+  }
+
+  .card {
+    border-bottom: 1px dotted black;
+  }
+  .card:last-child {
+    border: none;
+  }
+
+  .contact-icons {
+    flex-grow: .33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    @media screen and (min-width: 1000px) {
+      margin-top: 3rem;
+    }
+  }
+  li {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 300px;
+    @media screen and (min-width: 1000px) {
+      justify-content: space-between;
+      min-width: 800px;
+    }
+  }
+  a {
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  a:hover {
+    background: rgb(230, 230, 230);
+  }
+}
