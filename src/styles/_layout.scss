@@ -41,6 +41,7 @@
   }
 
   h3 {
+    margin-top: 1rem;
     @media screen and (min-width: 1000px) {
       margin-top: 3rem;
     }
@@ -64,6 +65,14 @@
   .ctaBtn:hover {
     color: white;
     background: rgb(206, 90, 12);
+  }
+  .ctaBtn::selection {
+    color: none;
+    background: none;
+}
+  .ctaBtn::-moz-selection {
+      color: none;
+      background: none;
   }
 }
 

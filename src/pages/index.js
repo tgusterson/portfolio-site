@@ -32,7 +32,7 @@ const Home = () => {
           <ul>
             <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faReact} size="4x" />React</li></a>
             <a href="https://www.ecma-international.org/publications/standards/Ecma-262.htm" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faJs} size="4x" />JavaScript</li></a>
-            <a href="/https://html.com/" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faHtml5} size="4x" />HTML</li></a>
+            <a href="https://html.com/" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faHtml5} size="4x" />HTML</li></a>
             <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faCss3} size="4x" />CSS</li></a>
             <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faSass} size="4x" />Sass</li></a>
             <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faDatabase} size="4x" />MongoDB</li></a>

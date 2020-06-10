@@ -108,6 +108,10 @@
     box-shadow: 2px 4px 2px 0px rgba(77, 71, 71, 0.75);
     transition: all 0.3s ease-in-out;
     border-radius: 5px;
+    .demoBtn::selection, .repoBtn::selection {
+      color: none;
+      background: none;
+  }
 
     @media screen and (min-width: 1000px) {
       display: inline;
